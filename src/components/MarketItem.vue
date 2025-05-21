@@ -29,19 +29,22 @@ import { ref } from 'vue';
 const props = defineProps({
   item: {
     type: Object,
-    required: true
-  }
+    required: true,
+  },
 });
 
-const showDescription = ref(false);
-
 function redirectToWhatsApp() {
-  const message = `Hello, I'm interested in the "${props.item.name}" and I'm interested in buying it. Could you kindly share the price and availability?`;
-  const phone = '233541754037'; // Replace with your WhatsApp number
-  const encodedMessage = encodeURIComponent(message);
-  const whatsappUrl = `https://wa.me/${phone}?text=${encodedMessage}`;
+  const sellerName = props.item.sellerName || 'Mr Samuel';
+  const productName = props.item.name || 'Product';
+  const productImageUrl = props.item.image || ''; 
+
+  const phone = '233544033693';
+  const message = `Hello ${sellerName}, I found your product "${productName}" and I'm interested in buying it.%0A%0AView item image:%0A${productImageUrl}%0A%0ACould you kindly share the price and availability?`;
+
+  const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
   window.open(whatsappUrl, '_blank');
 }
+
 </script>
 
 <style scoped>

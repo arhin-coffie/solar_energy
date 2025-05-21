@@ -22,8 +22,8 @@
       id: 1,
       name: "300W Monocrystalline Solar Panel",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
-      description: "High-efficiency monocrystalline solar panel with 25-year warranty."
+      image: "https://solarvet.co.ke/wp-content/uploads/2022/06/300W-Monocrystalline-Solar-Panel.jpg",
+      description: "High-efficiency monocrystalline solar panel."
     },
     {
       id: 2,
@@ -57,63 +57,63 @@
       id: 6,
       name: "Solar Water Heater",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
+      image: "https://5.imimg.com/data5/SELLER/Default/2024/6/424958294/IP/SL/SF/7356136/domestic-solar-water-heaters.jpg",
       description: "Eco-friendly solar water heating system for homes."
     },
     {
       id: 7,
       name: "Solar LED Street Light",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
+      image: "https://img5217.weyesimg.com/uploads/www.litelsolar.com/images/15650005128419.png",
       description: "Energy-efficient solar-powered street light."
     },
     {
       id: 8,
       name: "Portable Solar Generator",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
+      image: "https://i.ebayimg.com/images/g/xbgAAOSw4TdgrBT6/s-l1600.webp",
       description: "Compact solar generator for camping and emergencies."
     },
     {
       id: 9,
       name: "Solar Pool Heater",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
+      image: "https://m.media-amazon.com/images/I/81e3JMwNS8L._AC_SL1500_.jpg",
       description: "Solar-powered pool heating system."
     },
     {
       id: 10,
       name: "Solar-Powered CCTV Camera",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
+      image: "https://i.ebayimg.com/images/g/Tk8AAOSwk3lffgwu/s-l1600.webp",
       description: "Wireless solar security camera with night vision."
     },
     {
       id: 11,
       name: "Solar-Powered Fan",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
+      image: "https://dn5z2jafg7hv0.cloudfront.net/blog/wp-content/uploads/2022/08/14160153/Solar-Powered-Fan.jpg",
       description: "Portable solar fan for outdoor use."
     },
     {
       id: 12,
       name: "Solar-Powered Water Pump",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
+      image: "https://static.wixstatic.com/media/b7b329_2a51aecc989f4e3285a6ad54ebb3cdeb~mv2.jpg/v1/fill/w_568,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b7b329_2a51aecc989f4e3285a6ad54ebb3cdeb~mv2.jpg",
       description: "Efficient solar water pump for irrigation."
     },
     {
       id: 13,
       name: "Solar-Powered Backpack",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
+      image: "https://www.chigwellsatellite.co.uk/cdn/shop/products/Beam_900x.jpg?v=1615032607",
       description: "Backpack with built-in solar panels for charging devices."
     },
     {
       id: 14,
       name: "Solar-Powered Lantern",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
+      image: "https://www.ecodirect.com/v/vspfiles/photos/SOLARLAND-USA-BSS-00318-2.jpg?v-cache=1659436146",
       description: "Portable solar lantern for outdoor activities."
     },
     {
@@ -127,42 +127,42 @@
       id: 16,
       name: "Solar-Powered Air Conditioner",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
+      image: "https://www.loomsolar.com/cdn/shop/articles/solar_panel_for_ac_820cb20e-9f5e-452f-8cee-ab828d354e52_1200x.jpg?v=1707712570",
       description: "Energy-efficient solar AC unit for homes."
     },
     {
       id: 17,
       name: "Solar-Powered Fence Charger",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
+      image: "https://m.media-amazon.com/images/I/71gZ7e7ZqYL.jpg",
       description: "Solar-powered electric fence energizer."
     },
     {
       id: 18,
       name: "Solar-Powered Bug Zapper",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
+      image: "https://d3e54emdgoy1fq.cloudfront.net/uploads/product/image/377334/large_fdc4f-Other-Brands-LVC-51752-All-Patio-Garden-16-5-Solar-Power-LED-UV-Light-Mosquito-Bug-Zapper-Garden-Stake-with-2-LEDs.jpg",
       description: "Eco-friendly solar insect zapper."
     },
     {
       id: 19,
       name: "Solar-Powered Watch",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
-      description: "Stylish solar-powered wristwatch."
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZF3vdoAh2jKYSoYhGObb8QwUwFWCQKDH4dA&s",
+      description: "Potable alarm switch."
     },
     {
       id: 20,
-      name: "Solar-Powered Bluetooth Speaker",
+      name: "Fire alarm system",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
+      image: "https://www.securitastechnology.com/sites/securitastechnology.com/files/media/2021-11/Closed-up%20of%20Fire%20alarm%20press%20machine%20%281%29.jpg",
       description: "Portable solar Bluetooth speaker for outdoor use."
     },
     {
       id: 20,
       name: "Solar-Powered Bluetooth Speaker",
       price: "Cantact me for the price",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
+      image: "https://montanamallzw.com/wp-content/uploads/2020/11/whqil4qdrtglzxceizzb.jpg",
       description: "Portable solar Bluetooth speaker for outdoor use."
     }
   ]);
@@ -180,7 +180,7 @@ function run(arr){
   <style scoped>
   .our-market {
     padding: 4rem 2rem;
-    background: var(--light);
+    background-color: rgb(175, 206, 206);
   }
   
   .market-grid {

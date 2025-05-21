@@ -114,16 +114,16 @@ onUnmounted(() => clearInterval(interval));
   overflow: hidden;
 }
 
+
 .hero-carousel {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 60%;
   display: flex;
   z-index: -1;
 }
-
 .carousel-item {
   flex: 0 0 100%;
   height: 100%;
@@ -222,5 +222,52 @@ h1 {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+
+  @media (max-width: 768px) {
+  .cta-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 4rem 1rem 2rem;
+  }
+}
+
+.carousel-item {
+  aspect-ratio: 16 / 9;
+}
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 60vh;
+    widows: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-button, .video-link {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cta-container {
+    gap: 1rem;
+  }
+}
+
 }
 </style>
