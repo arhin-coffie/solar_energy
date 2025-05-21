@@ -36,8 +36,8 @@ const props = defineProps({
 const showDescription = ref(false);
 
 function redirectToWhatsApp() {
-  const message = `Hello, I'm interested in the "${props.item.name}"  Could you please tell me the price?`;
-  const phone = '233248360435'; // Replace with your WhatsApp number
+  const message = `Hello, I'm interested in the "${props.item.name}" and I'm interested in buying it. Could you kindly share the price and availability?`;
+  const phone = '233541754037'; // Replace with your WhatsApp number
   const encodedMessage = encodeURIComponent(message);
   const whatsappUrl = `https://wa.me/${phone}?text=${encodedMessage}`;
   window.open(whatsappUrl, '_blank');
