@@ -68,12 +68,12 @@
     title: 'Solar Installation',
     description: 'Professional solar panel installation and maintenance services',
     images: [
-      'https://images.pexels.com/photos/14613939/pexels-photo-14613939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', // Solar team installation
-      'https://images.pexels.com/photos/30285845/pexels-photo-30285845/free-photo-of-technician-installing-solar-panels-on-rooftop.jpeg?auto=compress&cs=tinysrgb&w=600', // Rooftop solar array
-      'https://images.pexels.com/photos/9800008/pexels-photo-9800008.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', // Technician installing
-      'https://images.unsplash.com/photo-1613665813446-82a78c468a1d', 
-      'https://images.pexels.com/photos/13932269/pexels-photo-13932269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', // Solar farm
-      'https://images.pexels.com/photos/8853513/pexels-photo-8853513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' // Residential installation
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777887/alarm-install-3_mrvyp1.jpg', // Solar team installation
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777821/solar-energy-2_vn1b6d.jpg', // Rooftop solar array
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777822/soalr-install-13_xgqmgz.jpg', // Technician installing
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777812/installation-14_ppswmc.jpg', 
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777815/so_ar-install-12_hzl4rb.jpg', // Solar farm
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777814/salar-installation-4_whwr2n.jpg' // Residential installation
     ]
   },
   {
@@ -92,12 +92,12 @@
     title: 'Electrical Wiring',
     description: 'Professional electrical wiring services for all building types',
     images: [
-      'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg', // Electrician at work
-      'https://images.pexels.com/photos/17018102/pexels-photo-17018102/free-photo-of-electricians-working-with-power-lines.jpeg', // Commercial wiring
-      'https://images.pexels.com/photos/26100225/pexels-photo-26100225/free-photo-of-man-fixing-in-electric-box.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', // Wiring organization
-      'https://www.mspurelife.com/cdn/shop/articles/Air_Purifier_vs_Air_Conditioner-_Can_They_Work_Together.jpg?v=1720158350&width=1000', // Industrial wiring
-      'https://images.pexels.com/photos/7286015/pexels-photo-7286015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', // Safety testing
-      'https://images.pexels.com/photos/10871585/pexels-photo-10871585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' // Residential wiring
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777811/electrical-wiring-4_z7sxyg.jpg', // Electrician at work
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777826/fuse-work-2_c9wzrj.jpg', // Commercial wiring
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777813/electtric-10_dvqywm.jpg', // Wiring organization
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777812/solar-battery-fix-1_iqdobv.jpg', // Industrial wiring
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777811/poll-wiring_yl260q.jpg', // Safety testing
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777817/electrica-wiring-6_boh2hw.jpg' // Residential wiring
     ]
   },
   {
@@ -116,8 +116,8 @@
     title: 'Fire Alarm Systems',
     description: 'Fire safety system installation and maintenance',
     images: [
-      'https://images.pexels.com/photos/20614571/pexels-photo-20614571/free-photo-of-fire-alarm-button-on-a-gray-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', // Smoke detector
-      'https://5.imimg.com/data5/SELLER/Default/2024/7/437309219/CN/DM/PJ/81270448/fire-alarm-system.png', // Fire sprinkler
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777811/electrical-wiring-4_z7sxyg.jpg', // Smoke detector
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777906/Alarm-fix_w4wiad.jpg', // Fire sprinkler
       'https://images.pexels.com/photos/13060860/pexels-photo-13060860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', // Control panel
       'https://nwoss.com/wp-content/uploads/2021/05/Blog_FireAlarmSystems_EverythingYouNeedtoKnow-e1655918801379.png', // Emergency lights
       'https://www.epssecurity.com/wp-content/uploads/2019/08/ONXYwDet_USA_new_jpg.jpg', // Fire drill
@@ -128,12 +128,12 @@
     title: 'Generator Servicing',
     description: 'Professional generator maintenance and repair',
     images: [
-      'https://www.electricgeneratorsdirect.com/products-image/1000/030738_151596_1200_33353132592092f50ccae55df87f5e1e.jpg', // Large generator
-      'https://s.alicdn.com/@sc04/kf/H2b373ec8742d43d8a36df84d07eb4a95c.jpg?avif=close', // Technician working
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777810/generator-fix-1_wrfb10.jpg', // Large generator
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777811/generator-work-4_own1fo.jpg', // Technician working
       'https://img.etimg.com/thumb/msid-69098659,width-300,height-225,imgsize-1235455,resizemode-75/.jpg', // Portable generator
-      'https://images.unsplash.com/photo-1588854114873-8d7e0e05fecc', // Industrial generator
-      'https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e', // Maintenance tools
-      'https://images.unsplash.com/photo-1588853767490-c0f0c5d170f7' // Testing equipment
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777810/generator-fix-1_wrfb10.jpg', // Industrial generator
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777810/generator-fix-1_wrfb10.jpg', // Maintenance tools
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1747777810/generator-fix-1_wrfb10.jpg' // Testing equipment
     ]
   }
 ]);

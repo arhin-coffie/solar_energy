@@ -6,9 +6,8 @@
           v-for="item in marketItems" 
           :key="item.id" 
           :item="item" 
-          @add-to-cart="addToCart"
+          @add-to-cart="redirectToWhatsApp"
         />
-        <CartPreview :cartItems=cartItems />
       </div>
     </section>
   </template>
@@ -22,154 +21,155 @@
     {
       id: 1,
       name: "300W Monocrystalline Solar Panel",
-      price: 250,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
       description: "High-efficiency monocrystalline solar panel with 25-year warranty."
     },
     {
       id: 2,
       name: "Solar Inverter 5kW",
-      price: 1200,
-      image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
-      description: "Advanced hybrid inverter for residential solar systems."
+      price: "Cantact me for the price",
+      image: "https://www.qoltec.com/files/en/product/gallery/main-image-635149b0591ba.jpg",
+      description: "Qoltec Modular Hybrid Solar Inverter Off-Grid 5kW | 80A | 48V | MPPT | Sinus "
     },
     {
       id: 3,
       name: "Solar Battery 10kWh",
-      price: 5000,
-      image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
-      description: "Lithium-ion battery for energy storage with 10-year lifespan."
+      price: "Cantact me for the price",
+      image: "https://optimasolarsystems.com/wp-content/uploads/2024/12/Lithium-Ion-Battery-Storage-in-Ghana-1.jpg",
+      description: "10kW Solar System With 10kWh Lithium-Ion Battery Storage: Discover sustainable energy solutions with a 10kW solar system and efficient 10kWh lithium-ion battery storage for homes and businesses."
     },
     {
       id: 4,
       name: "Solar Mounting Kit",
-      price: 350,
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
-      description: "Durable mounting system for rooftop solar panels."
+      price: "Cantact me for the price",
+      image: "https://solarsupply.co.za/wp-content/uploads/2020/11/Mounting-Flat-per-panel.png",
+      description: "Flat roof solar mounting system a simple and high quality, low cost, support structures for the installation of photovoltaic modules on flat roofs."
     },
     {
       id: 5,
       name: "Solar Charge Controller 40A",
-      price: 150,
-      image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
-      description: "MPPT charge controller for efficient energy management."
+      price: "Cantact me for the price",
+      image: "https://i.ebayimg.com/images/g/pTQAAeSw6rVoELlu/s-l1600.webp",
+      description: "MPPT Solar Charge Controller 12V/ 24V Solar Panel Charge Controller, 99% Tracking Efficiency40A MPPT has advanced maximum power point tracking technology. It continuously tracks the maximum power point of the array to obtain maximum power to charge the battery."
     },
     {
       id: 6,
       name: "Solar Water Heater",
-      price: 1800,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
       description: "Eco-friendly solar water heating system for homes."
     },
     {
       id: 7,
       name: "Solar LED Street Light",
-      price: 200,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
       description: "Energy-efficient solar-powered street light."
     },
     {
       id: 8,
       name: "Portable Solar Generator",
-      price: 800,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
       description: "Compact solar generator for camping and emergencies."
     },
     {
       id: 9,
       name: "Solar Pool Heater",
-      price: 2200,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
       description: "Solar-powered pool heating system."
     },
     {
       id: 10,
       name: "Solar-Powered CCTV Camera",
-      price: 300,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
       description: "Wireless solar security camera with night vision."
     },
     {
       id: 11,
       name: "Solar-Powered Fan",
-      price: 80,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
       description: "Portable solar fan for outdoor use."
     },
     {
       id: 12,
       name: "Solar-Powered Water Pump",
-      price: 450,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
       description: "Efficient solar water pump for irrigation."
     },
     {
       id: 13,
       name: "Solar-Powered Backpack",
-      price: 120,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
       description: "Backpack with built-in solar panels for charging devices."
     },
     {
       id: 14,
       name: "Solar-Powered Lantern",
-      price: 50,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
       description: "Portable solar lantern for outdoor activities."
     },
     {
       id: 15,
       name: "Solar-Powered Car Charger",
-      price: 100,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
       description: "Solar charger for electric vehicles."
     },
     {
       id: 16,
       name: "Solar-Powered Air Conditioner",
-      price: 3000,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
       description: "Energy-efficient solar AC unit for homes."
     },
     {
       id: 17,
       name: "Solar-Powered Fence Charger",
-      price: 200,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
       description: "Solar-powered electric fence energizer."
     },
     {
       id: 18,
       name: "Solar-Powered Bug Zapper",
-      price: 60,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
       description: "Eco-friendly solar insect zapper."
     },
     {
       id: 19,
       name: "Solar-Powered Watch",
-      price: 150,
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1624397640148-949b1732bb0a",
       description: "Stylish solar-powered wristwatch."
     },
     {
       id: 20,
       name: "Solar-Powered Bluetooth Speaker",
-      price: 90,
+      price: "Cantact me for the price",
+      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
+      description: "Portable solar Bluetooth speaker for outdoor use."
+    },
+    {
+      id: 20,
+      name: "Solar-Powered Bluetooth Speaker",
+      price: "Cantact me for the price",
       image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d",
       description: "Portable solar Bluetooth speaker for outdoor use."
     }
   ]);
   const cartItems =ref([]);
 // const emit = defineEmits(['add-to-cart']);
-const addToCart = (item) => {
-    const checkItem = cartItems.value.find(currentItem => currentItem.id === item.id)
-    if(!checkItem){
-     cartItems.value.push(item)
-    }else{
-        alert("item is alredy added")
-    }
-    return run(cartItems.value)
+const redirectToWhatsApp = () => {
+  window.location.href = 'https://wa.me/233248360435?text=Hello%20there!';
 };
 console.log('data', cartItems.value)
 function run(arr){
