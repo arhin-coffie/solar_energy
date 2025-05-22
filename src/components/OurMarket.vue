@@ -1,6 +1,6 @@
 <template>
     <section class="our-market">
-      <h2>Our Solar Market</h2>
+    <h2 class="section-title">Our Services</h2>
       <div class="market-grid">
         <MarketItem 
           v-for="item in marketItems" 
@@ -15,7 +15,6 @@
   <script setup>
   import { ref } from 'vue';
   import MarketItem from './MarketItem.vue';
-  import CartPreview from './CartPreview.vue';
   
   const marketItems = ref([
     {
@@ -180,7 +179,7 @@ function run(arr){
   <style scoped>
   .our-market {
     padding: 4rem 2rem;
-    background-color: rgb(175, 206, 206);
+  background-color: rgb(231, 240, 240);
   }
   
   .market-grid {
@@ -190,4 +189,24 @@ function run(arr){
     max-width: 1200px;
     margin: 0 auto;
   }
+  .section-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #1e293b;
+  position: relative;
+  padding-bottom: 0.8rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: #f59e0b;
+  border-radius: 2px;
+}
   </style>

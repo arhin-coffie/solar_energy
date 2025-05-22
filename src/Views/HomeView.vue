@@ -1,9 +1,10 @@
 <template>
     <HeroSection />
     <WhySolar />
+    <OurServices/>
+    <OurMarket @add-to-cart="handleAddToCart" />
     <HowItWorks />
     <SolarCalculator />
-    <OurMarket @add-to-cart="handleAddToCart" />
     <ProcessTimeline />
     <Testimonials />
     <FAQ />
@@ -18,6 +19,7 @@
 import Testimonials from '../components/Testimonials.vue';
 import FAQ from '../components/FAQ.vue';
 import OurMarket from '@/components/OurMarket.vue';
+import OurServices from '@/components/OurServices.vue';
 
 const emit = defineEmits(['add-to-cart']);
 const handleAddToCart = (item) => {
