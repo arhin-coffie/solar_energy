@@ -33,7 +33,7 @@
   <style scoped>
   .benefits {
     padding: 5rem 2rem;
-    background: white;
+  background-color: rgb(231, 240, 240);
   }
   
   .section-title {

@@ -14,24 +14,28 @@
       <!-- Navigation Links -->
       <div class="nav-links" :class="{ show: isOpen }">
         <a href="#main-content" class="skip-link">Skip to main content</a>
-        <router-link to="/our-services">Our Services</router-link>
-        <router-link to="/why-solar">Why Solar</router-link>
-        <router-link to="/how-it-works">Process</router-link>
-        <router-link to="/calculator">Calculator</router-link>
-        <router-link to="/calculator">Team</router-link>
-        <router-link to="/get-started" class="cta-nav">Get Started</router-link>
+        <router-link to="/our-services" @click="closeMenu">Our Services</router-link>
+         <router-link to="/our-Market" @click="closeMenu">Our Market</router-link>
+        <router-link to="/why-solar" @click="closeMenu">Why Solar</router-link>
+        <router-link to="/how-it-works" @click="closeMenu">Process</router-link>
+        <router-link to="/calculator" @click="closeMenu">Calculator</router-link>
+        <router-link to="/calculator" @click="closeMenu">Team</router-link>
+        <router-link to="/get-started" class="cta-nav" @click="closeMenu">Get Started</router-link>
       </div>
     </div>
   </nav>
 </template>
 
-
- <script setup>
+<script setup>
 import { ref } from 'vue';
 
 const isOpen = ref(false);
 
+function closeMenu() {
+  isOpen.value = false;
+}
 </script>
+
 
   <style scoped>
 .navbar {

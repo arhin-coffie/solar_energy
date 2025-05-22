@@ -8,6 +8,7 @@ import HowItWorksView from './Views/HowItWorksView.vue';
 import GetStartedView from './Views/GetStartedView.vue';
 import SolarCalculator from './components/SolarCalculator.vue';
 import OurServices from './components/OurServices.vue';
+import OurMarket from './components/OurMarket.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -18,11 +19,13 @@ const router = createRouter({
           component: () => import('@/Views/HomeView.vue')
         },
         { path: '/our-services', component: OurServices },
+         { path: '/our-Market', component: OurMarket },
        
     { path: '/why-solar', component: WhySolarView },
     { path: '/how-it-works', component: HowItWorksView },
     { path: '/get-started', component: GetStartedView },
     { path: '/calculator', component: SolarCalculator},
+
   ],
 });
 
