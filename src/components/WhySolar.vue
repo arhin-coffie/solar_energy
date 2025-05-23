@@ -21,7 +21,7 @@
             <span>Solar Energy Savings</span>
             <span>70%</span>
           </div>
-          <div class="chart-bar" style="width: 30%">
+          <div class="chart-bar" style="width: 70%">
             <span>Traditional Energy</span>
             <span>30%</span>
           </div>

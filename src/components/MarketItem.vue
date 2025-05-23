@@ -25,6 +25,7 @@
 
 <script setup>
 import { ref } from 'vue';
+const showDescription = ref(false)
 
 const props = defineProps({
   item: {
@@ -65,13 +66,16 @@ function redirectToWhatsApp() {
 
 .item-image img {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
+  height: 250px;         /* or adjust as needed */
+  object-fit: contain;   /* shows the whole image */
+  object-position: center;
 }
 
 .item-content {
   padding: 1.5rem;
   /* text-align: center; */
+    background-color: orange;
+
 }
 
 .disc {

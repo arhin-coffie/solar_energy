@@ -1,10 +1,10 @@
 <template>
     <section class="testimonials">
-      <h2>What Our Customers Say</h2>
-      
+          <h2 class="section-title">What Our Customers Say</h2>
+
       <div class="testimonial-grid">
         <div v-for="(testimonial, index) in testimonials" :key="index" class="testimonial-card">
-          <img :src="testimonial.photo" :alt="testimonial.name">
+          <img :src="testimonial.photo" :alt="testimonial.name" style="height: 300px;">
           <div class="content">
             <div class="stars">
               <i v-for="n in 5" :key="n" class="fas fa-star"></i>
@@ -22,10 +22,16 @@
   import { ref } from 'vue';
   const testimonials = ref([
     {
-      name: "Sarah Johnson",
-      location: "Austin, TX",
+      name: "Anna Coffie",
+      location: "Takoradi",
       text: "Our energy bills dropped by 80% in the first month. The installation was quick and professional!",
-      photo: "https://randomuser.me/api/portraits/women/85.jpg"
+      photo: "https://res.cloudinary.com/dkjqzjthp/image/upload/v1748002265/customer.jpg_ryi0xr.png"
+    },
+     {
+      name: "Isaac Mensah",
+      location: "Accra",
+      text: "Switching to solar was the best decision we cut our power expenses by more than half in just weeks. The service was efficient and hassle-free!",
+      photo: "https://res.cloudinary.com/dkjqzjthp/image/upload/v1748001338/costumer2_oegpwt.jpg"
     },
     // Add more testimonials
   ]);
@@ -34,7 +40,7 @@
   <style scoped>
   .testimonials {
     padding: 4rem 2rem;
-    background: white;
+  background-color: rgb(231, 240, 240);
   }
   
   .testimonial-grid {
@@ -50,6 +56,7 @@
     overflow: hidden;
     box-shadow: 0 8px 30px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    background-color: aliceblue;
   }
   
   .testimonial-card:hover {
@@ -74,4 +81,23 @@
   .stars i {
     margin-right: 0.2rem;
   }
+    .section-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #1e293b;
+  position: relative;
+  padding-bottom: 0.8rem;
+}
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: #f59e0b;
+  border-radius: 2px;
+}
   </style>

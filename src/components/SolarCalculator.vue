@@ -1,10 +1,9 @@
 <template>
   <section class="calculator">
     <div class="calculator-container">
-      <h2>Solar Savings Calculator</h2>
-      
+          <h2 class="section-title">Solar Savings Calculator</h2>      
       <div class="input-group">
-        <label for="monthlyBill">Monthly Energy Bill ($)</label>
+        <label for="monthlyBill">Monthly Energy Bill<p>Gh&#8373;</p></label>
         <p id="billHelp" class="help-text">Enter your average monthly electricity bill</p>
 
         <input 
@@ -23,7 +22,7 @@
       <div class="results">
         <div class="result-item">
           <span>Annual Savings</span>
-          <h3>${{ annualSavings }}</h3>
+          <h3><p>Gh&#8373;</p>{{ annualSavings }}</h3>
         </div>
         <div class="result-item">
           <span>CO2 Reduced</span>
@@ -95,7 +94,7 @@ const updateChart = () => {
 }
 .calculator {
   padding: 4rem 2rem;
-  background: var(--light);
+  background-color: rgb(231, 240, 240);
 }
 
 .calculator-container {
@@ -117,7 +116,7 @@ input {
 
 .chart-container {
   margin: 3rem 0;
-  height: 400px;
+  height: 200px;
 }
 
 .results {
@@ -132,5 +131,36 @@ input {
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: #f59e0b;
+  border-radius: 2px;
+}
+.section-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #1e293b;
+  position: relative;
+  padding-bottom: 0.8rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: #f59e0b;
+  border-radius: 2px;
 }
 </style>

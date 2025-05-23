@@ -16,5 +16,6 @@ import FAQ from '../components/FAQ.vue';
   /* View-specific styling */
   .how-it-works-view {
     padding: 2rem;
+    background-color: aliceblue;
   }
   </style>
