@@ -6,26 +6,9 @@
           <p>Proudly powering homes since 2015</p>
           <div class="social-links">
             <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <h>Developer (0248360435)</h>
           </div>
-        </div>
-  
-        <div class="footer-column">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><router-link to="/why-solar">Why Solar</router-link></li>
-            <li><router-link to="/how-it-works">Process</router-link></li>
-            <li><router-link to="/calculator">Calculator</router-link></li>
-          </ul>
-        </div>
-  
-        <div class="footer-column">
-          <h4>Newsletter</h4>
-          <form @submit.prevent="subscribeNewsletter">
-            <input v-model="email" type="email" placeholder="Enter your email">
-            <button type="submit">Subscribe</button>
-          </form>
         </div>
       </div>
   
@@ -64,6 +47,10 @@
   .footer-column h4 {
     margin-bottom: 1.5rem;
     color: var(--primary);
+  }
+  .footer-column2 {
+    display: flex;
+    flex-direction: row;
   }
   
   .social-links {

@@ -19,8 +19,7 @@
         <router-link to="/why-solar" @click="closeMenu">Why Solar</router-link>
         <router-link to="/how-it-works" @click="closeMenu">Process</router-link>
         <router-link to="/calculator" @click="closeMenu">Calculator</router-link>
-        <router-link to="/calculator" @click="closeMenu">Team</router-link>
-        <router-link to="/get-started" class="cta-nav" @click="closeMenu">Get Started</router-link>
+        <router-link to="/get-started" class="cta-nav" @click="closeMenu">Our Galary</router-link>
       </div>
     </div>
   </nav>
@@ -39,7 +38,7 @@ function closeMenu() {
 
   <style scoped>
 .navbar {
-  background: white;
+  background: orange;
   box-shadow: 0 2px 15px rgba(0,0,0,0.1);
   padding: 1rem 2rem;
   position: sticky;
@@ -93,8 +92,9 @@ function closeMenu() {
     flex-direction: column;
     width: 100%;
     display: none;
-    background: white;
+    background: aliceblue;
     padding: 1rem 0;
+    border-radius: 6px;
   }
 
   .nav-links.show {
@@ -119,8 +119,9 @@ function closeMenu() {
 }
 .cta-nav {
   background: var(--primary);
-  padding: 0.5rem 1.5rem;
-  border-radius: 25px;
+  padding: 0.5rem;
+  max-width: 200px;
+  border-radius: 20px;
   color: var(--dark) !important;
 }
 .skip-link {

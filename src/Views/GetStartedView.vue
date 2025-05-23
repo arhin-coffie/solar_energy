@@ -1,13 +1,11 @@
 <template>
     <div class="get-started-view">
-      <Testimonials />
-      <GetStartedForm />
+      <Team />
     </div>
   </template>
   
   <script setup>
-  import GetStartedForm from '../components/GetStartedForm.vue';
-  import Testimonials from '../components/Testimonials.vue';
+  import Team from '../components/Team.vue';
 </script>
   
   <style scoped>

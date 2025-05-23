@@ -1,12 +1,11 @@
 <template>
     <section class="our-market">
-    <h2 class="section-title">Our Services</h2>
+    <h2 class="section-title">Our Market</h2>
       <div class="market-grid">
         <MarketItem 
           v-for="item in marketItems" 
           :key="item.id" 
           :item="item" 
-          @add-to-cart="redirectToWhatsApp"
         />
       </div>
     </section>
@@ -165,15 +164,8 @@
       description: "Portable solar Bluetooth speaker for outdoor use."
     }
   ]);
-  const cartItems =ref([]);
-// const emit = defineEmits(['add-to-cart']);
-const redirectToWhatsApp = () => {
-  window.location.href = 'https://wa.me/233248360435?text=Hello%20there!';
-};
-console.log('data', cartItems.value)
-function run(arr){
-    console.log("data", arr)
-}
+
+
   </script>
   
   <style scoped>

@@ -104,12 +104,11 @@ const services = ref([
     title: 'Air-conditioning',
     description: 'AC system installation and maintenance services',
     images: [
-      'https://www.paradigmcooling.co.za/articles/wp-content/uploads/2024/05/AC-service-technician-doing-repair-jpg.webp',
-      'https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/global/images-for-blog/ac-maintenance-for-lasting-system-pc.jpg?t=1731490541012&w=2560',
-      'https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/global/images-for-blog/ac-maintenance-for-lasting-system-image.jpg?t=1731490541016&w=1200&webp=true&dpr=1&rendition=2400',
-      'https://aws-obg-image-lb-1.tcl.com/content/dam/brandsite/product/ac/light-commercial/ceiling-floor/toolkits/plp-banner-pc.jpg?t=1719817044667&w=2560&webp=true&dpr=1&rendition=2400',
-      'https://shop.haierindia.com/blog/wp-content/uploads/2024/07/alling-4-9-1024x576.jpg',
-      'https://shop.haierindia.com/blog/wp-content/uploads/2024/07/alling-1-9-1024x576.jpg'
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748004823/20250523_1251_Air_Conditioner_Repair_simple_compose_01jvyk3p0bfh4rgt9w7h5zxe3d_mpkv73.png',
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748005699/20250523_1251_Air_Conditioner_Repair_simple_compose_01jvyk3p0dfnfr3nyx387rh8xq_jtw6lf.png',
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748005692/20250523_1256_Boys_Repairing_Air_Conditioner_simple_compose_01jvykddtde63r461e5t86rcd7_sond5s.png',
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748005690/20250523_1256_Boys_Repairing_Air_Conditioner_simple_compose_01jvykddtfftaaetbc25jatz7m_azwf2u.png',
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748005690/20250523_1256_Boys_Repairing_Air_Conditioner_simple_compose_01jvykddtee2ztf32b65e6xtc1_oqjhas.png'
     ]
   },
   {
@@ -227,6 +226,8 @@ const closeModal = () => {
   background: white;
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: aliceblue;
+
 }
 
 .service-header {
@@ -271,6 +272,7 @@ const closeModal = () => {
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin: 0 2px;
+  background-color: aliceblue;
 }
 
 .service-image {

@@ -20,7 +20,7 @@
         </router-link>
         <a href="#benefits" class="video-link">
           <i class="fas fa-play-circle"></i>
-          How It Works
+          Call: 0544033693
         </a>
       </div>
     </div>
@@ -32,11 +32,11 @@
         <p>System Lifespan</p>
       </div>
       <div class="stat-item">
-        <h3>1M+ Homes</h3>
+        <h3>100+ Homes</h3>
         <p>Powered Nationwide</p>
       </div>
       <div class="stat-item">
-        <h3>GH0 Down</h3>
+        <h3><p>Gh&#8373;0</p> Down</h3>
         <p>Financing Options</p>
       </div>
     </div>
@@ -58,14 +58,14 @@ const slides = ref([
     image: 'https://images.pexels.com/photos/96612/pexels-photo-96612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     title: 'CCTV Installation',
     subtitle: 'Professional security system installation and configuration',
-    ctaText: 'Get a Free Quote',
+    ctaText: 'Installation Made Simple',
     // ctaLink: '/quote',
   },
   {
     image: 'https://images.pexels.com/photos/17018102/pexels-photo-17018102/free-photo-of-electricians-working-with-power-lines.jpeg',
-    title: 'Electrical Wiring',
+    title: 'Expert Electrical Wiring Solutions',
     subtitle: 'Professional electrical wiring services for all building types',
-    ctaText: 'Learn More',
+    ctaText: 'Expert Electrical Wiring Solutions',
     // ctaLink: '/learn',
   },
   {
@@ -73,21 +73,21 @@ const slides = ref([
     ,
     title: 'Air-conditioning',
     subtitle: 'AC system installation and maintenance services',
-    ctaText: 'Learn More',
+    ctaText: 'Get Expert Servicing',
     // ctaLink: '/learn',
   },
   {
     image: 'https://5.imimg.com/data5/SELLER/Default/2024/7/437309219/CN/DM/PJ/81270448/fire-alarm-system.png',
     title: 'Fire Alarm Systems',
     subtitle: 'Fire safety system installation and maintenance',
-    ctaText: 'Learn More',
+    ctaText: 'Quick & Easy Setup',
     // ctaLink: '/learn',
   },
   {
     image: 'https://s.alicdn.com/@sc04/kf/H2b373ec8742d43d8a36df84d07eb4a95c.jpg?avif=close',
     title: 'Generator Servicing',
     subtitle: 'Professional generator maintenance and repair',
-    ctaText: 'Learn More',
+    ctaText: 'Relax with Quality Service',
     // ctaLink: '/learn',
   }
 ]);
