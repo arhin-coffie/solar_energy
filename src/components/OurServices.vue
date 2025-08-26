@@ -104,11 +104,14 @@ const services = ref([
     title: 'Air-conditioning',
     description: 'AC system installation and maintenance services',
     images: [
-      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748004823/20250523_1251_Air_Conditioner_Repair_simple_compose_01jvyk3p0bfh4rgt9w7h5zxe3d_mpkv73.png',
       'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748005699/20250523_1251_Air_Conditioner_Repair_simple_compose_01jvyk3p0dfnfr3nyx387rh8xq_jtw6lf.png',
       'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748005692/20250523_1256_Boys_Repairing_Air_Conditioner_simple_compose_01jvykddtde63r461e5t86rcd7_sond5s.png',
       'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748005690/20250523_1256_Boys_Repairing_Air_Conditioner_simple_compose_01jvykddtfftaaetbc25jatz7m_azwf2u.png',
-      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748005690/20250523_1256_Boys_Repairing_Air_Conditioner_simple_compose_01jvykddtee2ztf32b65e6xtc1_oqjhas.png'
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748005699/20250523_1251_Air_Conditioner_Repair_simple_compose_01jvyk3p0dfnfr3nyx387rh8xq_jtw6lf.png',
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748005692/20250523_1256_Boys_Repairing_Air_Conditioner_simple_compose_01jvykddtde63r461e5t86rcd7_sond5s.png',
+      'https://res.cloudinary.com/dkjqzjthp/image/upload/v1748005692/20250523_1256_Boys_Repairing_Air_Conditioner_simple_compose_01jvykddtde63r461e5t86rcd7_sond5s.png',
+
+
     ]
   },
   {
@@ -279,7 +282,7 @@ const closeModal = () => {
   width: 100%;
   height: 250px;
   object-fit: contain;
-  background: #f1f5f9;
+  /* background: #f1f5f9; */
   transition: transform 0.5s ease;
 }
 
