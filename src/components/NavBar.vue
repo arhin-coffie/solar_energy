@@ -1,25 +1,30 @@
 <template>
   <nav class="navbar">
     <div class="container">
-      <router-link to="/" class="logo">
-        <i class="fas fa-solar-panel"></i>
-        SAM'S <span>POWER CONTROL ENGINEERING WORKS</span>
-      </router-link>
+      <div class="container2">
+        <img
+          src="https://res.cloudinary.com/dkjqzjthp/image/upload/e_improve,e_sharpen/v1756204576/samlogo_axipym.jpg"
+          alt="NDC Flag"
+          class="ndc-flag"
+        />
+        <router-link to="/" class="logo">
+          <span> QUALITECH </span>
+        </router-link>
+      </div>
 
-      <!-- Hamburger Button -->
       <button class="hamburger" @click="isOpen = !isOpen" aria-label="Toggle navigation">
         <i :class="isOpen ? 'fas fa-times' : 'fas fa-bars'"></i>
       </button>
 
-      <!-- Navigation Links -->
       <div class="nav-links" :class="{ show: isOpen }">
         <a href="#main-content" class="skip-link">Skip to main content</a>
-        <router-link to="/our-services" @click="closeMenu">Our Services</router-link>
-         <router-link to="/our-Market" @click="closeMenu">Our Market</router-link>
-        <router-link to="/why-solar" @click="closeMenu">Why Solar</router-link>
-        <router-link to="/how-it-works" @click="closeMenu">Process</router-link>
-        <router-link to="/calculator" @click="closeMenu">Calculator</router-link>
-        <router-link to="/get-started" class="cta-nav" @click="closeMenu">Our Galary</router-link>
+        <router-link to="/" @click="closeMenu" exact-active-class="active-link">Home</router-link>
+        <router-link to="/our-services" @click="closeMenu" active-class="active-link">Our Services</router-link>
+        <router-link to="/our-Market" @click="closeMenu" active-class="active-link">Our Market</router-link>
+        <router-link to="/why-solar" @click="closeMenu" active-class="active-link">Why Solar</router-link>
+        <router-link to="/how-it-works" @click="closeMenu" active-class="active-link">Process</router-link>
+        <router-link to="/calculator" @click="closeMenu" active-class="active-link">Calculator</router-link>
+        <router-link to="/get-started" class="cta-nav" active-class="cta-active" @click="closeMenu">Our Galary</router-link>
       </div>
     </div>
   </nav>
@@ -80,7 +85,40 @@ function closeMenu() {
   display: flex;
   gap: 2rem;
   align-items: center;
+  margin-top: 6px;
 }
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.ndc-flag {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+  border-radius: 9999px;
+  border: 2px solid #dc2626;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* New active link styles */
+.nav-links a.active-link {
+  color: var(--secondary);
+/* Or your preferred active color */
+  border-bottom: 2px solid rgb(31, 145, 35);
+  padding-bottom: 5px; /* Add some padding to prevent the border from touching the text */
+}
+
+/* Style for the CTA button when it's active */
+.cta-nav.cta-active {
+  background-color: darkred; /* Or a darker shade of your primary color */
+  color: white !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 
 /* Responsive for mobile */
 @media (max-width: 768px) {
@@ -138,6 +176,4 @@ function closeMenu() {
   width: auto;
   height: auto;
 }
-
-
-  </style>
+</style>
